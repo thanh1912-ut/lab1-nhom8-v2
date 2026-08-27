@@ -1,0 +1,1 @@
+2026-08-27 18:57:42,550 | START cnn_rmsprop_lr0.0005_s42 opt=rmsprop lr=0.0005 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
