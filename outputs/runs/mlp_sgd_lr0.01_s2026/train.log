@@ -109,3 +109,7 @@
 2026-08-27 12:40:08,392 | INTERRUPTED epoch=1 batch=705
 2026-08-27 12:40:08,394 | INTERRUPTED epoch=1 batch=843
 2026-08-27 14:59:32,471 | START mlp_sgd_lr0.01_s2026 opt=sgd lr=0.01 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 14:59:47,722 | START mlp_sgd_lr0.01_s2026 opt=sgd lr=0.01 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 14:59:47,743 | RESUMED from epoch 0, batch 600
+2026-08-27 14:59:51,650 | EPOCH 1 train_loss=1.433041
+2026-08-27 14:59:53,794 | EPOCH 1 VAL loss=0.879481 acc=0.6770 pre=0.6816 rec=0.6802 f1=0.6409 BEST
