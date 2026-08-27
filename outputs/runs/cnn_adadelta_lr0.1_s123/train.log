@@ -212,3 +212,4 @@
 2026-08-27 16:24:12,707 | DONE best_epoch=36 best_val_loss=0.236131 early_stop=True time=1176.1s
 2026-08-27 16:24:13,335 | EPOCH 47 train_loss=0.105527
 2026-08-27 16:24:15,380 | EPOCH 47 VAL loss=0.279090 acc=0.9083 pre=0.9128 rec=0.9091 f1=0.9093
+2026-08-27 16:24:38,210 | EPOCH 48 train_loss=0.102141
