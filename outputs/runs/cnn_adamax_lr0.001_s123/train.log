@@ -1,0 +1,5 @@
+2026-08-27 21:25:03,838 | START cnn_adamax_lr0.001_s123 opt=adamax lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 21:25:13,157 | EPOCH 1 train_loss=0.618590
+2026-08-27 21:25:13,971 | EPOCH 1 VAL loss=0.461571 acc=0.8350 pre=0.8370 rec=0.8349 f1=0.8266 BEST
+2026-08-27 21:25:24,190 | EPOCH 2 train_loss=0.402623
+2026-08-27 21:25:24,964 | EPOCH 2 VAL loss=0.420287 acc=0.8475 pre=0.8590 rec=0.8479 f1=0.8438 BEST
