@@ -16,9 +16,14 @@ except ImportError:
 MARKER = ".gitbackup_init_done"
 
 
-def _run(cmd, cwd, check=True, capture=True):
-    r = subprocess.run(cmd, cwd=cwd, shell=isinstance(cmd, str),
-                       capture_output=capture, text=True)
+def _run(cmd, cwd, check=True, capture=True, timeout=300):
+    try:
+        r = subprocess.run(cmd, cwd=cwd, shell=isinstance(cmd, str),
+                           capture_output=capture, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        if check:
+            raise RuntimeError(f"cmd timed out after {timeout}s: {cmd}")
+        r = subprocess.CompletedProcess(cmd, 124, "", "timed out")
     if check and r.returncode != 0:
         raise RuntimeError(f"cmd failed: {cmd}\n{r.stdout}\n{r.stderr}")
     return r
@@ -80,8 +85,14 @@ def _force_add_artifacts(cfg, root):
         from benchmark import all_results_paths
     winners = {}
     for rp in all_results_paths(cfg):
-        with open(rp, encoding="utf-8") as f:
-            results = json.load(f)
+        try:
+            with open(rp, encoding="utf-8") as f:
+                results = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            # file results hỏng/không đọc được -> bỏ qua, không chặn backup
+            print(L.colorize(f"git backup: skip unreadable {rp}: {e}",
+                             L.YELLOW))
+            continue
         for rid, h in results.items():
             if not h.get("done"):
                 continue

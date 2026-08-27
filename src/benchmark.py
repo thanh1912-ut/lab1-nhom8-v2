@@ -48,8 +48,14 @@ def load_results(cfg):
 
 def save_results(cfg, results):
     os.makedirs(cfg["output_dir"], exist_ok=True)
-    with open(results_path(cfg), "w", encoding="utf-8") as f:
+    # atomic write: dump ra file tmp rồi os.replace -> process chết giữa
+    # chừng không bao giờ để lại file results bị cắt/hỏng
+    tmp = results_path(cfg) + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, results_path(cfg))
 
 
 def run_all(cfg, only=None, device=None):
