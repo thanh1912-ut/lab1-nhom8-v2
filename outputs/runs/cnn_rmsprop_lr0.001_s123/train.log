@@ -1,3 +1,13 @@
 2026-08-27 18:48:28,803 | START cnn_rmsprop_lr0.001_s123 opt=rmsprop lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 18:48:41,521 | EPOCH 1 train_loss=0.472266
 2026-08-27 18:48:42,625 | EPOCH 1 VAL loss=0.350138 acc=0.8715 pre=0.8724 rec=0.8719 f1=0.8709 BEST
+2026-08-27 18:48:49,320 | START cnn_rmsprop_lr0.001_s123 opt=rmsprop lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 18:48:49,337 | RESUMED from epoch 1, batch 400
+2026-08-27 18:48:53,932 | EPOCH 2 train_loss=0.317001
+2026-08-27 18:48:54,899 | EPOCH 2 VAL loss=0.321004 acc=0.8847 pre=0.8899 rec=0.8839 f1=0.8810 BEST
+2026-08-27 18:49:00,702 | EPOCH 2 train_loss=0.310916
+2026-08-27 18:49:01,500 | EPOCH 2 VAL loss=0.323336 acc=0.8832 pre=0.8889 rec=0.8824 f1=0.8797 BEST
+2026-08-27 18:49:08,404 | EPOCH 3 train_loss=0.275794
+2026-08-27 18:49:09,573 | EPOCH 3 VAL loss=0.270532 acc=0.9045 pre=0.9054 rec=0.9051 f1=0.9045 BEST
+2026-08-27 18:49:12,503 | EPOCH 3 train_loss=0.275748
+2026-08-27 18:49:13,401 | EPOCH 3 VAL loss=0.269200 acc=0.9038 pre=0.9048 rec=0.9044 f1=0.9039 BEST
