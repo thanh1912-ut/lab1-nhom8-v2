@@ -1,1 +1,7 @@
 2026-08-27 19:36:25,613 | START cnn_adam_lr0.001_s123 opt=adam lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 19:36:29,755 | START cnn_adam_lr0.001_s123 opt=adam lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 19:36:29,776 | RESUMED from epoch 0, batch 200
+2026-08-27 19:36:37,123 | EPOCH 1 train_loss=0.511099
+2026-08-27 19:36:38,187 | EPOCH 1 VAL loss=0.364293 acc=0.8718 pre=0.8725 rec=0.8719 f1=0.8695 BEST
+2026-08-27 19:36:39,536 | EPOCH 1 train_loss=0.420834
+2026-08-27 19:36:40,644 | EPOCH 1 VAL loss=0.363284 acc=0.8713 pre=0.8722 rec=0.8713 f1=0.8689 BEST
