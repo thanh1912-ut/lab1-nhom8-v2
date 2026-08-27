@@ -28,3 +28,11 @@
 2026-08-27 07:07:02,443 | EPOCH 14 train_loss=0.596882
 2026-08-27 07:07:03,071 | EPOCH 14 VAL loss=0.604293 acc=0.7807 pre=0.7741 rec=0.7817 f1=0.7736 BEST
 2026-08-27 07:07:10,746 | INTERRUPTED epoch=14 batch=802
+2026-08-27 12:39:39,769 | START cnn_sgd_lr0.001_s42 opt=sgd lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 12:39:41,782 | START cnn_sgd_lr0.001_s42 opt=sgd lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 12:39:56,932 | EPOCH 1 train_loss=2.286727
+2026-08-27 12:39:57,341 | EPOCH 1 train_loss=2.286727
+2026-08-27 12:39:58,758 | EPOCH 1 VAL loss=2.267713 acc=0.3705 pre=0.2903 rec=0.3638 f1=0.2584 BEST
+2026-08-27 12:39:58,980 | EPOCH 1 VAL loss=2.267713 acc=0.3705 pre=0.2903 rec=0.3638 f1=0.2584 BEST
+2026-08-27 12:40:08,391 | INTERRUPTED epoch=1 batch=616
+2026-08-27 12:40:08,394 | INTERRUPTED epoch=1 batch=590
