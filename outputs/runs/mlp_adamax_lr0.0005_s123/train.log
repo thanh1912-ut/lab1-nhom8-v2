@@ -1,3 +1,15 @@
 2026-08-27 12:32:53,537 | START mlp_adamax_lr0.0005_s123 opt=adamax lr=0.0005 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 12:32:55,812 | INTERRUPTED epoch=0 batch=189
 2026-08-27 13:13:58,326 | START mlp_adamax_lr0.0005_s123 opt=adamax lr=0.0005 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 13:14:08,319 | START mlp_adamax_lr0.0005_s123 opt=adamax lr=0.0005 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 13:14:08,331 | RESUMED from epoch 0, batch 600
+2026-08-27 13:14:09,502 | EPOCH 1 train_loss=0.709669
+2026-08-27 13:14:10,578 | EPOCH 1 VAL loss=0.526796 acc=0.8100 pre=0.8139 rec=0.8108 f1=0.8068 BEST
+2026-08-27 13:14:18,932 | EPOCH 1 train_loss=0.532251
+2026-08-27 13:14:20,010 | EPOCH 1 VAL loss=0.526796 acc=0.8100 pre=0.8139 rec=0.8108 f1=0.8068 BEST
+2026-08-27 13:14:23,053 | EPOCH 2 train_loss=0.470934
+2026-08-27 13:14:24,143 | EPOCH 2 VAL loss=0.483444 acc=0.8300 pre=0.8371 rec=0.8304 f1=0.8231 BEST
+2026-08-27 13:14:32,660 | EPOCH 2 train_loss=0.470934
+2026-08-27 13:14:33,774 | EPOCH 2 VAL loss=0.483444 acc=0.8300 pre=0.8371 rec=0.8304 f1=0.8231 BEST
+2026-08-27 13:14:36,973 | EPOCH 3 train_loss=0.426388
+2026-08-27 13:14:38,047 | EPOCH 3 VAL loss=0.439125 acc=0.8488 pre=0.8505 rec=0.8509 f1=0.8488 BEST
