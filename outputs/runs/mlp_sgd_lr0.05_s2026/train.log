@@ -82,3 +82,5 @@
 2026-08-27 13:12:42,378 | START mlp_sgd_lr0.05_s2026 opt=sgd lr=0.05 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 13:12:59,910 | START mlp_sgd_lr0.05_s2026 opt=sgd lr=0.05 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 14:43:09,497 | START mlp_sgd_lr0.05_s2026 opt=sgd lr=0.05 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 14:43:22,785 | START mlp_sgd_lr0.05_s2026 opt=sgd lr=0.05 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 14:43:22,801 | RESUMED from epoch 0, batch 400
