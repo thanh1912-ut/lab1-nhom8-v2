@@ -31,56 +31,50 @@
       2,
       3,
       4,
-      5,
-      6
+      5
     ],
     "val_loss": [
       0.569174,
       0.517473,
       0.436431,
       0.398993,
-      0.389754,
-      0.380142
+      0.389754
     ],
     "val_acc": [
       0.803333,
       0.810333,
       0.847,
       0.855333,
-      0.855833,
-      0.863
+      0.855833
     ],
     "val_precision": [
       0.806334,
       0.842666,
       0.846807,
       0.856588,
-      0.860943,
-      0.863195
+      0.860943
     ],
     "val_recall": [
       0.805346,
       0.810643,
       0.848958,
       0.856096,
-      0.855456,
-      0.864785
+      0.855456
     ],
     "val_f1": [
       0.79356,
       0.817173,
       0.845111,
       0.855305,
-      0.855042,
-      0.860975
+      0.855042
     ],
-    "best_epoch": 6,
-    "best_val_loss": 0.380142,
-    "best_val_metric": 0.860975,
+    "best_epoch": 4,
+    "best_val_loss": 0.398993,
+    "best_val_metric": 0.855305,
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 113.3
+    "train_time_sec": 111.06
   },
   "mlp_sgd_lr0.05_s123": {
     "run_id": "mlp_sgd_lr0.05_s123",
@@ -544,7 +538,7 @@
       15
     ],
     "train_loss": [
-      0.646542,
+      0.815728,
       0.494516,
       0.432892,
       0.400037,
@@ -668,7 +662,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 209.08
+    "train_time_sec": 208.38
   },
   "mlp_sgd_lr0.01_s42": {
     "run_id": "mlp_sgd_lr0.01_s42",
@@ -2100,10 +2094,12 @@
       "early_stop_by": "f1"
     },
     "epochs": [
-      1
+      1,
+      2
     ],
     "train_loss": [
-      1.206627
+      1.433041,
+      0.744673
     ],
     "val_epoch": [
       1
@@ -2129,7 +2125,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 25.98
+    "train_time_sec": 28.23
   },
   "mlp_sgd_lr0.001_s42": {
     "run_id": "mlp_sgd_lr0.001_s42",
@@ -5877,7 +5873,7 @@
       9
     ],
     "train_loss": [
-      0.489218,
+      0.574224,
       0.401012,
       0.357925,
       0.331908,
@@ -5959,7 +5955,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 134.18
+    "train_time_sec": 133.09
   },
   "mlp_adadelta_lr1.0_s123": {
     "run_id": "mlp_adadelta_lr1.0_s123",
@@ -6009,7 +6005,7 @@
       34
     ],
     "train_loss": [
-      0.489799,
+      0.574574,
       0.399444,
       0.357331,
       0.332513,
@@ -6266,7 +6262,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 459.96,
+    "train_time_sec": 466.18,
     "test": {
       "acc": 0.8819,
       "precision": 0.885591,
@@ -6292,7 +6288,7 @@
       4
     ],
     "train_loss": [
-      0.575082,
+      0.464497,
       0.402828,
       0.354579,
       0.330992
@@ -6339,7 +6335,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 63.82
+    "train_time_sec": 63.13
   },
   "mlp_adadelta_lr0.5_s42": {
     "run_id": "mlp_adadelta_lr0.5_s42",
@@ -6360,7 +6356,7 @@
       5
     ],
     "train_loss": [
-      0.591787,
+      0.500138,
       0.403388,
       0.358191,
       0.331147,
@@ -6414,7 +6410,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": false,
     "done": false,
-    "train_time_sec": 77.21
+    "train_time_sec": 76.1
   },
   "mlp_adadelta_lr0.5_s123": {
     "run_id": "mlp_adadelta_lr0.5_s123",
@@ -25359,7 +25355,7 @@
       66
     ],
     "train_loss": [
-      0.547021,
+      0.713514,
       0.468819,
       0.425712,
       0.397634,
@@ -25840,7 +25836,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 1278.88,
+    "train_time_sec": 1289.69,
     "test": {
       "acc": 0.8964,
       "precision": 0.896954,
@@ -25911,7 +25907,7 @@
       49
     ],
     "train_loss": [
-      0.709669,
+      0.532251,
       0.470934,
       0.426388,
       0.401568,
@@ -26273,7 +26269,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 647.32,
+    "train_time_sec": 662.66,
     "test": {
       "acc": 0.8897,
       "precision": 0.892266,
@@ -26354,7 +26350,7 @@
     ],
     "train_loss": [
       0.71139,
-      0.470148,
+      0.46313,
       0.427718,
       0.400773,
       0.381776,
@@ -26778,7 +26774,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 766.13,
+    "train_time_sec": 774.59,
     "test": {
       "acc": 0.8898,
       "precision": 0.892367,

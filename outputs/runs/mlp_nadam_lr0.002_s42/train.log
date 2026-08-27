@@ -1,0 +1,1 @@
+2026-08-27 13:37:43,407 | START mlp_nadam_lr0.002_s42 opt=nadam lr=0.002 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
