@@ -47,3 +47,4 @@
 2026-08-27 14:05:51,708 | EPOCH 12 VAL loss=0.312838 acc=0.8932 pre=0.8941 rec=0.8941 f1=0.8930 BEST
 2026-08-27 14:05:52,708 | EPOCH 11 train_loss=0.206861
 2026-08-27 14:05:53,807 | EPOCH 11 VAL loss=0.323831 acc=0.8857 pre=0.8858 rec=0.8877 f1=0.8855
+2026-08-27 16:01:00,800 | START mlp_nadam_lr0.001_s42 opt=nadam lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
