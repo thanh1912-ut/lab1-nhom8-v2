@@ -653,3 +653,6 @@
 2026-08-27 18:30:51,000 | EPOCH 135 train_loss=0.342041
 2026-08-27 18:30:52,112 | EPOCH 135 VAL loss=0.361857 acc=0.8720 pre=0.8711 rec=0.8728 f1=0.8706
 2026-08-27 18:30:52,122 | DONE best_epoch=125 best_val_loss=0.365459 early_stop=True time=1749.08s
+2026-08-27 18:31:01,102 | EPOCH 135 train_loss=0.342242
+2026-08-27 18:31:01,863 | EPOCH 135 VAL loss=0.362031 acc=0.8717 pre=0.8707 rec=0.8725 f1=0.8703
+2026-08-27 18:31:01,871 | DONE best_epoch=125 best_val_loss=0.365479 early_stop=True time=1762.02s
