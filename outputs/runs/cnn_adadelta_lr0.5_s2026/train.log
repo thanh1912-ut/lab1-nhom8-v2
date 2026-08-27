@@ -37,3 +37,6 @@
 2026-08-27 12:42:20,921 | EPOCH 9 VAL loss=0.225852 acc=0.9187 pre=0.9214 rec=0.9196 f1=0.9200 BEST
 2026-08-27 12:42:23,041 | INTERRUPTED epoch=8 batch=663
 2026-08-27 12:42:23,042 | INTERRUPTED epoch=9 batch=97
+2026-08-27 15:38:43,924 | START cnn_adadelta_lr0.5_s2026 opt=adadelta lr=0.5 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 15:39:05,925 | EPOCH 1 train_loss=0.573654
+2026-08-27 15:39:08,054 | EPOCH 1 VAL loss=0.399294 acc=0.8607 pre=0.8599 rec=0.8621 f1=0.8570 BEST
