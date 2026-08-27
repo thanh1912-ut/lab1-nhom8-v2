@@ -127,3 +127,8 @@
 2026-08-27 20:31:41,732 | EPOCH 23 train_loss=0.052912
 2026-08-27 20:31:42,736 | EPOCH 23 VAL loss=0.340219 acc=0.9193 pre=0.9204 rec=0.9198 f1=0.9188
 2026-08-27 20:31:42,748 | DONE best_epoch=13 best_val_loss=0.244538 early_stop=True time=313.13s
+2026-08-27 20:31:47,730 | EPOCH 23 train_loss=0.053739
+2026-08-27 20:31:48,916 | EPOCH 23 VAL loss=0.335319 acc=0.9130 pre=0.9149 rec=0.9134 f1=0.9124
+2026-08-27 20:32:00,881 | EPOCH 24 train_loss=0.049050
+2026-08-27 20:32:01,873 | EPOCH 24 VAL loss=0.326245 acc=0.9182 pre=0.9196 rec=0.9194 f1=0.9193
+2026-08-27 20:32:01,882 | DONE best_epoch=14 best_val_loss=0.24766 early_stop=True time=331.67s
