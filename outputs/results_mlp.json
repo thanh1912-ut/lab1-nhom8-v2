@@ -78,7 +78,7 @@
       0.241823,
       0.235447,
       0.230809,
-      0.225258,
+      0.227269,
       0.220962,
       0.215312,
       0.211821,
@@ -384,7 +384,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 1011.5,
+    "train_time_sec": 1027.46,
     "test": {
       "acc": 0.8893,
       "precision": 0.890414,
