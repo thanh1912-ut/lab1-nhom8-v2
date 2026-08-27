@@ -44,3 +44,8 @@
 2026-08-27 22:16:23,216 | EPOCH 22 train_loss=0.034323
 2026-08-27 22:16:23,984 | EPOCH 22 VAL loss=0.528063 acc=0.9140 pre=0.9148 rec=0.9143 f1=0.9140
 2026-08-27 22:16:23,995 | DONE best_epoch=12 best_val_loss=0.317437 early_stop=True time=230.63s
+2026-08-27 22:18:55,503 | START cnn_nadam_lr0.002_s123 opt=nadam lr=0.002 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 22:19:04,511 | EPOCH 1 train_loss=0.445193
+2026-08-27 22:19:05,246 | EPOCH 1 VAL loss=0.305043 acc=0.8923 pre=0.8926 rec=0.8928 f1=0.8924 BEST
+2026-08-27 22:19:14,855 | EPOCH 2 train_loss=0.287535
+2026-08-27 22:19:15,556 | EPOCH 2 VAL loss=0.281962 acc=0.8962 pre=0.8990 rec=0.8962 f1=0.8940 BEST
