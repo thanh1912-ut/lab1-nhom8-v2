@@ -1,0 +1,2 @@
+2026-08-27 13:53:17,038 | START mlp_nadam_lr0.002_s2026 opt=nadam lr=0.002 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 13:53:29,080 | EPOCH 1 train_loss=0.502467
