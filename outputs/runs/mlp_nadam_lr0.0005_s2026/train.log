@@ -1,3 +1,6 @@
 2026-08-27 17:00:34,897 | START mlp_nadam_lr0.0005_s2026 opt=nadam lr=0.0005 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 17:00:56,484 | EPOCH 1 train_loss=0.572415
 2026-08-27 17:00:58,634 | EPOCH 1 VAL loss=0.439462 acc=0.8468 pre=0.8456 rec=0.8482 f1=0.8445 BEST
+2026-08-27 17:01:03,726 | START mlp_nadam_lr0.0005_s2026 opt=nadam lr=0.0005 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 17:01:03,754 | RESUMED from epoch 1, batch 0
+2026-08-27 17:01:20,453 | EPOCH 2 train_loss=0.392519
