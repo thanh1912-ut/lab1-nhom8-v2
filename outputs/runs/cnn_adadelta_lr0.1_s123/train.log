@@ -22,3 +22,4 @@
 2026-08-27 12:52:31,013 | EPOCH 5 VAL loss=0.363397 acc=0.8697 pre=0.8732 rec=0.8718 f1=0.8693 BEST
 2026-08-27 12:52:31,502 | INTERRUPTED epoch=5 batch=180
 2026-08-27 12:52:31,508 | INTERRUPTED epoch=4 batch=843
+2026-08-27 16:04:30,963 | START cnn_adadelta_lr0.1_s123 opt=adadelta lr=0.1 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
