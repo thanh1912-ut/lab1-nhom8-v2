@@ -384,7 +384,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 960.15,
+    "train_time_sec": 992.91,
     "test": {
       "acc": 0.8893,
       "precision": 0.890414,
@@ -885,7 +885,7 @@
     ],
     "train_loss": [
       0.815728,
-      0.494516,
+      0.483482,
       0.432892,
       0.400037,
       0.374271,
@@ -1218,7 +1218,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 974.38,
+    "train_time_sec": 1005.47,
     "test": {
       "acc": 0.8883,
       "precision": 0.892694,
@@ -2746,7 +2746,7 @@
       88
     ],
     "train_loss": [
-      1.433041,
+      0.938881,
       0.744673,
       0.614598,
       0.549446,
@@ -3381,7 +3381,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 1919.03,
+    "train_time_sec": 1980.76,
     "test": {
       "acc": 0.8845,
       "precision": 0.887156,
@@ -7329,7 +7329,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 510.3,
+    "train_time_sec": 515.16,
     "test": {
       "acc": 0.8808,
       "precision": 0.8814,
