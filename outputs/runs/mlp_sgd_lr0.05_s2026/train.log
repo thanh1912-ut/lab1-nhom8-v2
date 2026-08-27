@@ -79,3 +79,4 @@
 2026-08-27 12:39:31,707 | EPOCH 15 VAL loss=0.319563 acc=0.8812 pre=0.8864 rec=0.8829 f1=0.8831
 2026-08-27 12:39:39,710 | INTERRUPTED epoch=15 batch=697
 2026-08-27 12:39:39,711 | INTERRUPTED epoch=15 batch=579
+2026-08-27 13:12:42,378 | START mlp_sgd_lr0.05_s2026 opt=sgd lr=0.05 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
