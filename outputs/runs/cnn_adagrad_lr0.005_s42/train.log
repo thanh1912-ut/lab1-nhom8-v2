@@ -1,0 +1,1 @@
+2026-08-27 13:49:26,569 | START cnn_adagrad_lr0.005_s42 opt=adagrad lr=0.005 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
