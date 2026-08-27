@@ -32,3 +32,4 @@
 2026-08-27 22:19:13,269 | EPOCH 16 train_loss=0.052287
 2026-08-27 22:19:13,975 | EPOCH 16 VAL loss=0.360224 acc=0.9133 pre=0.9132 rec=0.9143 f1=0.9131
 2026-08-27 22:19:13,984 | DONE best_epoch=6 best_val_loss=0.218141 early_stop=True time=165.37s
+2026-08-27 22:23:19,980 | START cnn_nadam_lr0.002_s2026 opt=nadam lr=0.002 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
