@@ -6406,5 +6406,72 @@
     "stopped_early": false,
     "done": false,
     "train_time_sec": 29.33
+  },
+  "mlp_adadelta_lr0.5_s42": {
+    "run_id": "mlp_adadelta_lr0.5_s42",
+    "model": "mlp",
+    "optimizer": "adadelta",
+    "lr": 0.5,
+    "seed": 42,
+    "device": "cuda",
+    "selection": {
+      "best_weight_by": "f1",
+      "early_stop_by": "f1"
+    },
+    "epochs": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "train_loss": [
+      0.591787,
+      0.403388,
+      0.358191,
+      0.331147
+    ],
+    "val_epoch": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "val_loss": [
+      0.449703,
+      0.408109,
+      0.364976,
+      0.357021
+    ],
+    "val_acc": [
+      0.838,
+      0.850833,
+      0.868833,
+      0.869667
+    ],
+    "val_precision": [
+      0.839742,
+      0.865101,
+      0.869643,
+      0.874218
+    ],
+    "val_recall": [
+      0.840636,
+      0.851754,
+      0.870802,
+      0.870631
+    ],
+    "val_f1": [
+      0.835874,
+      0.8542,
+      0.868541,
+      0.870627
+    ],
+    "best_epoch": 4,
+    "best_val_loss": 0.357021,
+    "best_val_metric": 0.870627,
+    "best_val_metric_name": "f1",
+    "stopped_early": false,
+    "done": false,
+    "train_time_sec": 30.3
   }
 }
