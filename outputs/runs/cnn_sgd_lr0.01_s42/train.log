@@ -1,0 +1,1 @@
+2026-08-27 06:40:58,957 | START cnn_sgd_lr0.01_s42 opt=sgd lr=0.01 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
