@@ -1,1 +1,4 @@
 2026-08-27 17:24:54,835 | START cnn_adagrad_lr0.001_s42 opt=adagrad lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 17:25:05,547 | START cnn_adagrad_lr0.001_s42 opt=adagrad lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 17:25:05,561 | RESUMED from epoch 0, batch 600
+2026-08-27 17:25:06,264 | EPOCH 1 train_loss=0.817782
