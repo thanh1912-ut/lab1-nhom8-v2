@@ -25843,5 +25843,32 @@
     "stopped_early": false,
     "done": false,
     "train_time_sec": 443.37
+  },
+  "mlp_adamax_lr0.0005_s123": {
+    "run_id": "mlp_adamax_lr0.0005_s123",
+    "model": "mlp",
+    "optimizer": "adamax",
+    "lr": 0.0005,
+    "seed": 123,
+    "device": "cuda",
+    "selection": {
+      "best_weight_by": "f1",
+      "early_stop_by": "f1"
+    },
+    "epochs": [],
+    "train_loss": [],
+    "val_epoch": [],
+    "val_loss": [],
+    "val_acc": [],
+    "val_precision": [],
+    "val_recall": [],
+    "val_f1": [],
+    "best_epoch": null,
+    "best_val_loss": null,
+    "best_val_metric": null,
+    "best_val_metric_name": "f1",
+    "stopped_early": false,
+    "done": false,
+    "train_time_sec": 0.0
   }
 }
