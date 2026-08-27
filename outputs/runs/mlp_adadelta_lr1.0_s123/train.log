@@ -1,0 +1,2 @@
+2026-08-27 08:06:55,155 | START mlp_adadelta_lr1.0_s123 opt=adadelta lr=1.0 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 08:06:57,173 | INTERRUPTED epoch=0 batch=229
