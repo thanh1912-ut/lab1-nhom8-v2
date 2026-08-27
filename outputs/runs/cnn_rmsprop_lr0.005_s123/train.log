@@ -1,1 +1,3 @@
 2026-08-27 18:34:42,203 | START cnn_rmsprop_lr0.005_s123 opt=rmsprop lr=0.005 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 18:34:45,001 | START cnn_rmsprop_lr0.005_s123 opt=rmsprop lr=0.005 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 18:34:45,017 | RESUMED from epoch 0, batch 200
