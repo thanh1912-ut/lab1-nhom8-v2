@@ -76,3 +76,10 @@
 2026-08-27 15:31:40,061 | START mlp_adadelta_lr1.0_s42 opt=adadelta lr=1.0 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 15:32:00,461 | EPOCH 1 train_loss=0.574224
 2026-08-27 15:32:02,258 | EPOCH 1 VAL loss=0.429829 acc=0.8437 pre=0.8467 rec=0.8466 f1=0.8433 BEST
+2026-08-27 15:32:10,766 | START mlp_adadelta_lr1.0_s42 opt=adadelta lr=1.0 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 15:32:10,791 | RESUMED from epoch 1, batch 200
+2026-08-27 15:32:23,437 | EPOCH 2 train_loss=0.401012
+2026-08-27 15:32:25,368 | EPOCH 2 VAL loss=0.440686 acc=0.8373 pre=0.8609 rec=0.8391 f1=0.8422
+2026-08-27 15:32:31,243 | EPOCH 2 train_loss=0.396903
+2026-08-27 15:32:32,810 | EPOCH 2 VAL loss=0.440686 acc=0.8373 pre=0.8609 rec=0.8391 f1=0.8422
+2026-08-27 15:32:43,865 | EPOCH 3 train_loss=0.357925
