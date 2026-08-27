@@ -1,0 +1,48 @@
+# Model: mlp | cnn
+model: cnn
+
+# Data
+data:
+  name: fashion_mnist
+  root: ./data
+  batch_size: 64
+  val_batch_size: 512
+  test_batch_size: 512
+  val_split: 6000        # 54k train / 6k val
+
+# Training
+epochs: 150
+val_every: 1             # validate mỗi epoch
+early_stop_patience: 10  # 10 epochs không cải thiện -> dừng
+
+# Best weight & early stop selection
+# best_weight_by: loss | acc | f1  (best weight theo metric val)
+# early_stop_by:  loss | acc | f1  (early stop theo metric val)
+selection:
+  best_weight_by: f1
+  early_stop_by: f1
+
+checkpoint_every_batches: 200
+seed_runs: [42, 123, 2026]
+
+# Optimizers & LR grids (8 single optimizers x 3 LRs)
+optimizers:
+  sgd:      {lrs: [0.05, 0.01, 0.001]}
+  adadelta: {lrs: [1.0, 0.5, 0.1]}
+  adagrad:  {lrs: [0.01, 0.005, 0.001]}
+  rmsprop:  {lrs: [0.005, 0.001, 0.0005]}
+  adam:     {lrs: [0.002, 0.001, 0.0005]}
+  adamw:    {lrs: [0.002, 0.001, 0.0005]}
+  adamax:   {lrs: [0.002, 0.001, 0.0005]}
+  nadam:    {lrs: [0.002, 0.001, 0.0005]}
+
+# Output
+output_dir: ./outputs
+tensorboard_dir: ./outputs/tensorboard
+
+# GitHub auto-backup (Kaggle). Token đọc từ env GITHUB_TOKEN hoặc Kaggle Secrets.
+git_backup:
+  enabled: true
+  repo_url: https://github.com/thanh1912-ut/lab1-nhom8-v2
+  branch: main
+  every_runs: 1   # push sau mỗi N run hoàn tất

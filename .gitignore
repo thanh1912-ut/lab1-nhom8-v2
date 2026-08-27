@@ -1,0 +1,16 @@
+# Data & caches
+data/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Heavy artifacts - NOT pushed to GitHub (backed up selectively by gitbackup.py)
+outputs/runs/*/ckpt.pt
+outputs/runs/*/last.pt
+outputs/tensorboard/
+
+# Old lab outputs (kept locally in archive/)
+archive/
+
+# git backup lock
+outputs/.gitbackup.lock
