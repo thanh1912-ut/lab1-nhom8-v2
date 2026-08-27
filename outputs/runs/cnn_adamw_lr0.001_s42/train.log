@@ -1,1 +1,5 @@
 2026-08-27 20:20:45,252 | START cnn_adamw_lr0.001_s42 opt=adamw lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 20:20:47,421 | START cnn_adamw_lr0.001_s42 opt=adamw lr=0.001 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 20:20:58,393 | EPOCH 1 train_loss=0.530084
+2026-08-27 20:20:59,153 | EPOCH 1 train_loss=0.531711
+2026-08-27 20:20:59,583 | EPOCH 1 VAL loss=0.381685 acc=0.8680 pre=0.8679 rec=0.8690 f1=0.8657 BEST
