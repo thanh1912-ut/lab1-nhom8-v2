@@ -33,3 +33,4 @@
 2026-08-27 12:52:25,687 | EPOCH 5 VAL loss=0.330817 acc=0.8750 pre=0.8795 rec=0.8754 f1=0.8745 BEST
 2026-08-27 12:52:31,504 | INTERRUPTED epoch=5 batch=363
 2026-08-27 12:52:31,505 | INTERRUPTED epoch=5 batch=704
+2026-08-27 15:52:01,167 | START mlp_adadelta_lr0.5_s42 opt=adadelta lr=0.5 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
