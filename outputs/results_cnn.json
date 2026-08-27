@@ -1,0 +1,61 @@
+{
+  "cnn_sgd_lr0.05_s42": {
+    "run_id": "cnn_sgd_lr0.05_s42",
+    "model": "cnn",
+    "optimizer": "sgd",
+    "lr": 0.05,
+    "seed": 42,
+    "device": "cuda",
+    "selection": {
+      "best_weight_by": "f1",
+      "early_stop_by": "f1"
+    },
+    "epochs": [
+      1,
+      2,
+      3
+    ],
+    "train_loss": [
+      0.800809,
+      0.469541,
+      0.394493
+    ],
+    "val_epoch": [
+      1,
+      2,
+      3
+    ],
+    "val_loss": [
+      0.550868,
+      0.44295,
+      0.381652
+    ],
+    "val_acc": [
+      0.786167,
+      0.830833,
+      0.864167
+    ],
+    "val_precision": [
+      0.797216,
+      0.853421,
+      0.864503
+    ],
+    "val_recall": [
+      0.787989,
+      0.831945,
+      0.865673
+    ],
+    "val_f1": [
+      0.771402,
+      0.835786,
+      0.862887
+    ],
+    "best_epoch": 3,
+    "best_val_loss": 0.381652,
+    "best_val_metric": 0.862887,
+    "best_val_metric_name": "f1",
+    "stopped_early": false,
+    "done": false,
+    "train_time_sec": 50.04
+  }
+}
