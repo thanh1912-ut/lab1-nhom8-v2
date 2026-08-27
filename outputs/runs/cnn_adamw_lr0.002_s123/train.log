@@ -1,0 +1,1 @@
+2026-08-27 20:11:55,533 | START cnn_adamw_lr0.002_s123 opt=adamw lr=0.002 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
