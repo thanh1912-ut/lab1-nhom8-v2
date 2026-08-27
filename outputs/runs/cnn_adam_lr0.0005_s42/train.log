@@ -1,1 +1,4 @@
 2026-08-27 19:45:46,716 | START cnn_adam_lr0.0005_s42 opt=adam lr=0.0005 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 19:45:52,878 | START cnn_adam_lr0.0005_s42 opt=adam lr=0.0005 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 19:45:52,891 | RESUMED from epoch 0, batch 400
+2026-08-27 19:45:58,603 | EPOCH 1 train_loss=0.613302
