@@ -1,0 +1,1 @@
+2026-08-27 19:36:25,613 | START cnn_adam_lr0.001_s123 opt=adam lr=0.001 seed=123 device=cuda epochs=150 best_by=f1 stop_by=f1
