@@ -384,7 +384,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 960.15,
+    "train_time_sec": 964.41,
     "test": {
       "acc": 0.8893,
       "precision": 0.890414,
@@ -884,7 +884,7 @@
       45
     ],
     "train_loss": [
-      0.815728,
+      0.596002,
       0.494516,
       0.432892,
       0.400037,
@@ -1218,7 +1218,7 @@
     "best_val_metric_name": "f1",
     "stopped_early": true,
     "done": true,
-    "train_time_sec": 974.38,
+    "train_time_sec": 985.28,
     "test": {
       "acc": 0.8883,
       "precision": 0.892694,
