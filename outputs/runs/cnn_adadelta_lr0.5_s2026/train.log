@@ -40,3 +40,13 @@
 2026-08-27 15:38:43,924 | START cnn_adadelta_lr0.5_s2026 opt=adadelta lr=0.5 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
 2026-08-27 15:39:05,925 | EPOCH 1 train_loss=0.573654
 2026-08-27 15:39:08,054 | EPOCH 1 VAL loss=0.399294 acc=0.8607 pre=0.8599 rec=0.8621 f1=0.8570 BEST
+2026-08-27 15:39:27,220 | START cnn_adadelta_lr0.5_s2026 opt=adadelta lr=0.5 seed=2026 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 15:39:27,247 | RESUMED from epoch 1, batch 600
+2026-08-27 15:39:31,042 | EPOCH 2 train_loss=0.348866
+2026-08-27 15:39:32,870 | EPOCH 2 VAL loss=0.321926 acc=0.8820 pre=0.8823 rec=0.8836 f1=0.8815 BEST
+2026-08-27 15:39:46,054 | EPOCH 2 train_loss=0.327292
+2026-08-27 15:39:47,872 | EPOCH 2 VAL loss=0.323457 acc=0.8807 pre=0.8815 rec=0.8825 f1=0.8804 BEST
+2026-08-27 15:39:57,137 | EPOCH 3 train_loss=0.294080
+2026-08-27 15:39:59,025 | EPOCH 3 VAL loss=0.310115 acc=0.8788 pre=0.8939 rec=0.8824 f1=0.8819 BEST
+2026-08-27 15:40:12,558 | EPOCH 3 train_loss=0.294532
+2026-08-27 15:40:14,059 | EPOCH 3 VAL loss=0.307465 acc=0.8808 pre=0.8946 rec=0.8843 f1=0.8839 BEST
