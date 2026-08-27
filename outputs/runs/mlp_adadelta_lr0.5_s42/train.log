@@ -34,3 +34,6 @@
 2026-08-27 12:52:31,504 | INTERRUPTED epoch=5 batch=363
 2026-08-27 12:52:31,505 | INTERRUPTED epoch=5 batch=704
 2026-08-27 15:52:01,167 | START mlp_adadelta_lr0.5_s42 opt=adadelta lr=0.5 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 15:52:22,095 | EPOCH 1 train_loss=0.591787
+2026-08-27 15:52:22,179 | START mlp_adadelta_lr0.5_s42 opt=adadelta lr=0.5 seed=42 device=cuda epochs=150 best_by=f1 stop_by=f1
+2026-08-27 15:52:22,208 | RESUMED from epoch 0, batch 800
